@@ -1,0 +1,221 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:80726574-5194-51ef-aebb-8c34648e5df8",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-06T07:37:23Z",
+    "component": {
+      "type": "application",
+      "name": "open-condo-software_condo",
+      "version": "bad4f60864da",
+      "bom-ref": "pkg:generic/anticloud/open-condo-software_condo@bad4f60864da",
+      "purl": "pkg:generic/anticloud/open-condo-software_condo@bad4f60864da",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "bad4f60864da360119005adbe052f0afb4ebb292"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/open-condo-software/condo.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "@address-service/domains",
+      "version": "link:./domains",
+      "purl": "pkg:npm/@address-service/domains@link:./domains",
+      "bom-ref": "npm/@address-service/domains@link:./domains"
+    },
+    {
+      "type": "library",
+      "name": "@apollo/client",
+      "version": "catalog:",
+      "purl": "pkg:npm/@apollo/client@catalog:",
+      "bom-ref": "npm/@apollo/client@catalog:"
+    },
+    {
+      "type": "library",
+      "name": "@open-condo/cli",
+      "version": "workspace:^",
+      "purl": "pkg:npm/@open-condo/cli@workspace:^",
+      "bom-ref": "npm/@open-condo/cli@workspace:^"
+    },
+    {
+      "type": "library",
+      "name": "@open-condo/codegen",
+      "version": "workspace:^",
+      "purl": "pkg:npm/@open-condo/codegen@workspace:^",
+      "bom-ref": "npm/@open-condo/codegen@workspace:^"
+    },
+    {
+      "type": "library",
+      "name": "@open-condo/config",
+      "version": "workspace:^",
+      "purl": "pkg:npm/@open-condo/config@workspace:^",
+      "bom-ref": "npm/@open-condo/config@workspace:^"
+    },
+    {
+      "type": "library",
+      "name": "@open-condo/icons",
+      "version": "workspace:^",
+      "purl": "pkg:npm/@open-condo/icons@workspace:^",
+      "bom-ref": "npm/@open-condo/icons@workspace:^"
+    },
+    {
+      "type": "library",
+      "name": "@open-condo/keystone",
+      "version": "workspace:^",
+      "purl": "pkg:npm/@open-condo/keystone@workspace:^",
+      "bom-ref": "npm/@open-condo/keystone@workspace:^"
+    },
+    {
+      "type": "library",
+      "name": "@open-condo/miniapp-utils",
+      "version": "workspace:^",
+      "purl": "pkg:npm/@open-condo/miniapp-utils@workspace:^",
+      "bom-ref": "npm/@open-condo/miniapp-utils@workspace:^"
+    },
+    {
+      "type": "library",
+      "name": "@open-condo/ui",
+      "version": "workspace:^",
+      "purl": "pkg:npm/@open-condo/ui@workspace:^",
+      "bom-ref": "npm/@open-condo/ui@workspace:^"
+    },
+    {
+      "type": "library",
+      "name": "@open-keystone/app-admin-ui",
+      "version": "catalog:",
+      "purl": "pkg:npm/@open-keystone/app-admin-ui@catalog:",
+      "bom-ref": "npm/@open-keystone/app-admin-ui@catalog:"
+    },
+    {
+      "type": "library",
+      "name": "express",
+      "version": "catalog:",
+      "purl": "pkg:npm/express@catalog:",
+      "bom-ref": "npm/express@catalog:"
+    },
+    {
+      "type": "library",
+      "name": "fast-xml-parser",
+      "version": "^5.4.0",
+      "purl": "pkg:npm/fast-xml-parser@^5.4.0",
+      "bom-ref": "npm/fast-xml-parser@^5.4.0"
+    },
+    {
+      "type": "library",
+      "name": "graphql",
+      "version": "catalog:",
+      "purl": "pkg:npm/graphql@catalog:",
+      "bom-ref": "npm/graphql@catalog:"
+    },
+    {
+      "type": "library",
+      "name": "graphql-tag",
+      "version": "catalog:",
+      "purl": "pkg:npm/graphql-tag@catalog:",
+      "bom-ref": "npm/graphql-tag@catalog:"
+    },
+    {
+      "type": "library",
+      "name": "lodash",
+      "version": "catalog:",
+      "purl": "pkg:npm/lodash@catalog:",
+      "bom-ref": "npm/lodash@catalog:"
+    },
+    {
+      "type": "library",
+      "name": "openid-client",
+      "version": "catalog:",
+      "purl": "pkg:npm/openid-client@catalog:",
+      "bom-ref": "npm/openid-client@catalog:"
+    },
+    {
+      "type": "library",
+      "name": "react",
+      "version": "catalog:",
+      "purl": "pkg:npm/react@catalog:",
+      "bom-ref": "npm/react@catalog:"
+    },
+    {
+      "type": "library",
+      "name": "react-router-dom",
+      "version": "5.2.0",
+      "purl": "pkg:npm/react-router-dom@5.2.0",
+      "bom-ref": "npm/react-router-dom@5.2.0"
+    },
+    {
+      "type": "library",
+      "name": "uuid",
+      "version": "catalog:",
+      "purl": "pkg:npm/uuid@catalog:",
+      "bom-ref": "npm/uuid@catalog:"
+    },
+    {
+      "type": "library",
+      "name": "@types/jest",
+      "version": "catalog:",
+      "purl": "pkg:npm/@types/jest@catalog:",
+      "bom-ref": "npm/@types/jest@catalog:"
+    },
+    {
+      "type": "library",
+      "name": "@types/node",
+      "version": "catalog:",
+      "purl": "pkg:npm/@types/node@catalog:",
+      "bom-ref": "npm/@types/node@catalog:"
+    },
+    {
+      "type": "library",
+      "name": "@types/react",
+      "version": "catalog:",
+      "purl": "pkg:npm/@types/react@catalog:",
+      "bom-ref": "npm/@types/react@catalog:"
+    },
+    {
+      "type": "library",
+      "name": "cross-env",
+      "version": "catalog:",
+      "purl": "pkg:npm/cross-env@catalog:",
+      "bom-ref": "npm/cross-env@catalog:"
+    },
+    {
+      "type": "library",
+      "name": "jest",
+      "version": "catalog:",
+      "purl": "pkg:npm/jest@catalog:",
+      "bom-ref": "npm/jest@catalog:"
+    },
+    {
+      "type": "library",
+      "name": "jest-jasmine2",
+      "version": "catalog:",
+      "purl": "pkg:npm/jest-jasmine2@catalog:",
+      "bom-ref": "npm/jest-jasmine2@catalog:"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "catalog:",
+      "purl": "pkg:npm/typescript@catalog:",
+      "bom-ref": "npm/typescript@catalog:"
+    }
+  ]
+}
